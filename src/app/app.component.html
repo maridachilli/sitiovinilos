@@ -1,0 +1,49 @@
+<!--<app-title [title]="" [subtitle]="subtitle"></app-title>
+<app-nav ></app-nav>-->
+
+<div>
+    <mat-toolbar>
+        <img class="appbar-button pointer" *ngIf="!open" src="./assets/images/logo-cerrado.png" (click)="open = !open"/>
+        <img class="appbar-button pointer" *ngIf="open" src="./assets/images/logo-abierto.png" (click)="open = !open"/>
+        <span class="fill-space"></span>
+        <span class="pointer" (click)="paginaAMostrar=''">EL CLUB DEL VINILO</span>
+    </mat-toolbar>
+</div>
+
+<mat-drawer-container class="sidenav">
+    <mat-drawer #drawer [mode]="sidenavMode" class="sidenav-drawer" [opened]="open">
+        <mat-selection-list #menu [multiple]="false" (selectionChange)="onOptionSelectedChange(menu.selectedOptions.selected)">
+            <mat-list-option [value]="'Historia'" > 
+                <div class="center-vertically">
+                    <mat-icon class="list-icon">album</mat-icon>
+                    <span>Historia</span> 
+                </div>
+            </mat-list-option>
+            <mat-list-option class="list-item" [value]="'Artistas'"> 
+                <div class="center-vertically">
+                    <mat-icon class="list-icon">album</mat-icon>
+                    <span>Artistas</span> 
+                </div>
+            </mat-list-option>
+            <mat-list-option class="list-item" [value]="'Ferias'"> 
+                <div class="center-vertically">
+                    <mat-icon class="list-icon">album</mat-icon>
+                    <span>Ferias</span>
+                </div> 
+            </mat-list-option>
+            <mat-list-option class="list-item" [value]="'Cabina'"> 
+                <div class="center-vertically">
+                    <mat-icon class="list-icon">album</mat-icon>
+                    <span>Cabina</span> 
+                </div>
+            </mat-list-option>
+        </mat-selection-list>
+    </mat-drawer>
+    <mat-drawer-content>
+            <app-home *ngIf="paginaAMostrar === ''"></app-home>
+            <app-historia *ngIf="paginaAMostrar === 'Historia'"></app-historia>
+            <app-lacabina *ngIf="paginaAMostrar === 'Cabina'"></app-lacabina>
+            <app-ferias *ngIf="paginaAMostrar === 'Ferias'"></app-ferias>
+            <app-artistas *ngIf="paginaAMostrar === 'Artistas'"></app-artistas>
+    </mat-drawer-content>
+</mat-drawer-container>

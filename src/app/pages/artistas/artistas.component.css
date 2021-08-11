@@ -1,0 +1,12 @@
+.list-icon {
+    margin-right: 5px;
+}
+
+.center-vertically{
+    display:flex;
+    align-items: center;
+}
+
+.titulo {
+    text-decoration: underline;
+}

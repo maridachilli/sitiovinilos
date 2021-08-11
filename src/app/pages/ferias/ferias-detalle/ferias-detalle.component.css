@@ -1,0 +1,9 @@
+.titulo-interno {
+    display: block;
+    font-size: 1em;
+    text-decoration: underline;
+}
+
+.link {
+    color: grey;
+}

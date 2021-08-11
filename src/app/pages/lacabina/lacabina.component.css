@@ -1,0 +1,23 @@
+.contenido {
+    background-color: var(--blanco);
+    max-width: 100%;
+    margin-top: 50px;
+    text-align: center;
+    
+}
+
+.titulo {
+    display: block;
+    font-size: 2em;
+    text-align: center;
+}
+
+.titulo-interno {
+    display: block;
+    font-size: 1em;
+    text-decoration: underline;
+    text-align: center;
+}
+ .imagen {
+     height: 330px;
+ }

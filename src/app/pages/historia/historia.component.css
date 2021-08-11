@@ -1,0 +1,10 @@
+
+.contenido {
+    text-align: center;
+}
+
+.titulo {
+    display: block;
+    font-size: 2em;
+    text-decoration: underline;
+}

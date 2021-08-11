@@ -1,0 +1,30 @@
+.sidenav {
+    height: 100vh;
+}
+
+.sidenav-drawer {
+    width: 200px;
+}
+
+.appbar-button {
+    height: 55px;
+}
+
+.fill-space {
+    flex: 1 1 auto;
+}
+
+.list-icon {
+    margin-right: 5px;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.center-vertically{
+    display:flex;
+    align-items: center;
+}
+
+

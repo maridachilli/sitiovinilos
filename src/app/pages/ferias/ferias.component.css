@@ -1,0 +1,11 @@
+.contenido {
+    max-width: 100%100%;
+    margin: 50px;
+    text-align: center;
+}
+
+.titulo {
+    display: block;
+    font-size: 2em;
+}
+

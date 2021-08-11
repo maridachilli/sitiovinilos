@@ -1,0 +1,12 @@
+<div style="margin-left: 15px;" *ngFor="let artista of artistasList">
+    <h1 class="titulo">{{artista.nombre}}</h1>
+    <p>{{artista.texto}}</p>
+    <mat-list>
+        <mat-list-item *ngFor="let disco of artista.discos">
+            <div class="center-vertically">
+                <mat-icon class="list-icon">album</mat-icon>
+                <span>{{disco}}</span> 
+            </div>
+        </mat-list-item>
+    </mat-list>
+</div>

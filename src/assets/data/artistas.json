@@ -1,0 +1,51 @@
+
+	[
+		{
+			"nombre": "Juan Atkins",
+			"texto": "Un importante pionero de la música electrónica de Detroit. Juan apareció detrás de alias como Cybotron, Model 500 e Infiniti lanzando muchos clásicos del techno de Detroit.",
+			"discos": ["The Future Sound EP", "Beat Track", "Futurepast EP", "Fast Forward", "Electric Jungle", "Dimensions", "Martians At Work EP", "Is This Real?", "Never Tempt Me", "Clear"]
+		},
+		{
+			"nombre": "Glenn Underground",
+			"texto": "Es uno de los fundadores de Strictly Jazz Unit. Creció escuchando música disco y jazz en el sur de Chicago, el lugar donde nació el house.",
+			"discos": ["The Parables Of S.J.U.", "Atmosfear", "Future Parables", "The Jerusalem EP's", "A Story Of Deepness", "Lounge Excursions", "Love & Hurt", "Black Resurrection", 
+            "Back To The Basic", "Forgotten Art"]
+		},
+        {
+            "nombre": "Jeff Mills",
+            "texto" : "DJ de techno estadounidense, compositor, productor y artista de grabación, con sede en Detroit, Michigan, EE. UU.",
+            "discos": ["Waveform Transmission Vol. 1", "Waveform Transmission Vol. 3", "From The 21st", "Metropolis", "Time Machine", "At First Sight", "Three Ages", "Blue Potential (Live With Montpellier Philharmonic Orchestra)",
+            "One Man Spaceship", "Sleeper Wakes"]
+        },
+        {
+            "nombre": "Boo Williams",
+            "texto": "Boo Williams es un productor de la segunda generación del house de Chicago. Boo siguió los pasos de los grandes de la ciudad del viento como Larry Heard, Marshall Jefferson y Lil' Louis.",
+            "discos": ["A New Beginning", "New Breed", "Lost Of Time", "The Undertaker", "Midnight Express", "Technical E.P.", "12 Tribes", "A Little Something For You", "Many Forms Of House",
+            "The Mortal Trance EP"]
+        },
+        {
+            "nombre": "Larry Heard",
+            "texto": "Larry Heard es un músico radicado en Memphis, EE. UU., que lleva produciendo Chicago House desde los orígenes del house hacia mediados de los años 1980. También fue el líder del influyente grupo Fingers Inc. y ha publicado música en solitario bajo diferentes nombres, el más famoso es Mr. Fingers",
+            "discos": ["Alien", "Genesis", "Love's Arrival", "Where Life Begins", "Black Oceans", "The Calm & Chaos EP", "Missing You", "Direct Drive / Time Machine", 
+            "Another Night", "Praise"]
+        },
+        {
+            "nombre": "Marshall Jefferson",
+            "texto": "Es un músico estadounidense, que trabaja en la música house, ​en particular, los subgéneros del Chicago house y Deep House.​",
+            "discos": ["Day Of The Onion", "The House Music Anthem", "Ride The Rhythm", "Do The Do", "Sunshine N' Your Eyes", "Jump On It", "Day Of The Onion / Floating", 
+            "12 Of Love", "Touch The Sky", "Animals EP"]
+        },
+        {
+            "nombre": " Lil Louis",
+            "texto": "DJ y productor estadounidense, con sede en Chicago, Illinois, EE. UU. Fue uno de los productores de house más populares de Chicago a fines de la década de 1980 gracias a su gran éxito de club French Kiss, fue también el único productor de Chicago en negociar con éxito con las principales discográficas",
+            "discos":["Two Sides To Every Story", "Frequency / How I Feel", "The Original Video Clash", "French Kiss", "Club Lonely", "Stormy Black", "Clap Your Hands",
+            "Blackout", "How's Your Evening So Far?", "Fable"]
+        },
+        { 
+            "nombre": "Ron Trent" ,
+            "texto": "DJ y productor de Chicago, Estados Unidos. Se crió en la escena musical underground de Chicago en la década de 1980, que pasó de Disco a House.",
+            "discos": ["Primitive Arts", "Ancient / Future", "Dance Classic", "Dance Floor Boogie Delites", "Raw Footage", "The Afterlife", "Love Affair", "States EP",
+            "Hip To Be Disillusioned Vol. 1", "Dark Room"]
+        }
+
+	]

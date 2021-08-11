@@ -1,0 +1,14 @@
+<h2 class="titulo-interno">{{titulo}}</h2>
+<p>
+    {{descripcion}} <br>
+    {{productos}} <br>
+    <span *ngIf="instagram">     
+        Instagram: 
+        <a class="link" href="https://www.instagram.com/{{instagram}}">@{{instagram}}</a>
+    </span>
+    <br>
+    <span *ngIf="pagina">
+        Tienda oficial:
+        <a class="link" href="https://www.{{pagina}}">{{pagina}}</a>
+    </span>
+</p>
